@@ -3,7 +3,7 @@
 # Runs the same steps locally that will be run in CI.
 # If this passes, the CI build should as well.
 
-mix credo --strict
+mix credo
 CREDO_RES=$?
 if [ $CREDO_RES -ne 0 ]; then
   echo ""
