@@ -1,4 +1,4 @@
-defmodule ZipZip.Zipper do
+defmodule ZipZip do
   @moduledoc """
   A set of functions operating on zippers. For now, zippers are in two
   dimensions only.

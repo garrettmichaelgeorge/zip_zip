@@ -1,8 +1,8 @@
-defmodule ZipZip.ZipperTest do
+defmodule ZipZipTest do
   use ExUnit.Case, async: true
 
   # credo:disable-for-next-line
-  alias ZipZip.Zipper, as: Z
+  alias ZipZip, as: Z
 
   describe "moving to the right" do
     test "initially, current item is nil" do
