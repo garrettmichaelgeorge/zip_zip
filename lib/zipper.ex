@@ -1,19 +1,5 @@
 defmodule ZipZip do
-  @moduledoc """
-  A set of functions operating on zippers. For now, zippers are in two
-  dimensions only.
-
-  The internal structure of a zipper should be considered opaque and subject to
-  change. To get or update the current item, traverse the zipper, or perform any
-  other operation on the zipper, use the public functions exposed in this
-  module.
-
-  References:
-    * [Wikipedia](https://en.wikipedia.org/wiki/Zipper_(data_structure))
-    * [Gerard Huet's original paper](https://www.st.cs.uni-saarland.de/edu/seminare/2005/advanced-fp/docs/huet-zipper.pdf)
-    * [Clojure stdlib](https://clojuredocs.org/clojure.zip/zipper)
-    * [ElixirForum post](https://elixirforum.com/t/elixir-needs-a-fifo-type/5701/24)
-  """
+  @moduledoc File.read!("README.md")
 
   @initial_position -1
 
