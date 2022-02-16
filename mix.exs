@@ -13,7 +13,7 @@ defmodule ElixirStartingPoint.MixProject do
       build_path: "_build",
       deps_path: "deps",
       lockfile: "mix.lock",
-      elixir: "~> 1.12",
+      elixir: "~> 1.13",
       consolidate_protocols: Mix.env() != :test,
       deps: deps(),
       test_coverage: [tool: ExCoveralls],
