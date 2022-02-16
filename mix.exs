@@ -5,7 +5,7 @@ defmodule ElixirStartingPoint.MixProject do
 
   def project do
     [
-      app: :zipzip,
+      app: :zip_zip,
       version: @version,
       description: description(),
       name: "ZipZip",
